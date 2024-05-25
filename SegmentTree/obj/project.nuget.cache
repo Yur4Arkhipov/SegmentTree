@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D8wz1jT+3LSwlvd1yGaLWBPG2sAVPZtBiB8CnomWE7LzHEOJb5CiYnqkanFD/FvRuMgi1vdMe+4RsbFPM1N6Bw==",
+  "dgSpecHash": "mS4PEmhpPAvmh724H+IShjSkPT0pFLlTly3EOI5zyf4+UgeAkV6aNU1/NkJIdAibrD3yYSpzCJQ8a4d4lf2tLw==",
   "success": true,
-  "projectFilePath": "D:\\Учеба\\АиСД\\Курсач\\SegmentTree\\SegmentTree\\SegmentTree.csproj",
+  "projectFilePath": "/workspaces/SegmentTree/SegmentTree/SegmentTree.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

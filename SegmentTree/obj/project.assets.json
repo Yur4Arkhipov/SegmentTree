@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\yuraa\\.nuget\\packages\\": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Учеба\\АиСД\\Курсач\\SegmentTree\\SegmentTree\\SegmentTree.csproj",
+      "projectUniqueName": "/workspaces/SegmentTree/SegmentTree/SegmentTree.csproj",
       "projectName": "SegmentTree",
-      "projectPath": "D:\\Учеба\\АиСД\\Курсач\\SegmentTree\\SegmentTree\\SegmentTree.csproj",
-      "packagesPath": "C:\\Users\\yuraa\\.nuget\\packages\\",
-      "outputPath": "D:\\Учеба\\АиСД\\Курсач\\SegmentTree\\SegmentTree\\obj\\",
+      "projectPath": "/workspaces/SegmentTree/SegmentTree/SegmentTree.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/SegmentTree/SegmentTree/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yuraa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -59,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
