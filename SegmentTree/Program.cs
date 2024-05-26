@@ -59,6 +59,14 @@
         Console.WriteLine($"Произведение элементов [{start + 1}; {end + 1}) после обновления массива [index {updateIndex}, value {updateValue}]: " + multiplyTree.Query(segment));
         Console.WriteLine($"НОД [{start + 1}; {end + 1}) после обновления массива [index {updateIndex}, value {updateValue}]: " + gcdTree.Query(segment));
 
-        
+        System.Console.WriteLine();
+
+        System.Console.WriteLine("FenwickTree: ");
+        int[] arrFenwick = {43, 18, 35, 12, 57, 76, 45, 15, 76, 24};
+        FenwickTree.BuildFenwickTree(arrFenwick, arrFenwick.Length);
+        System.Console.WriteLine("Сумма на отрезке 2-6: " + FenwickTree.SumRange(2, 6));
+        System.Console.WriteLine("Обновление массива: (index 5, value 12)");
+        FenwickTree.Update(arrFenwick, 5, 12);
+        System.Console.WriteLine("Сумма на отрезке 5-9: "+ FenwickTree.SumRange(5, 9));
     }
 }
