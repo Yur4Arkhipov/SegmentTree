@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SegmentTree")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7c1e9454e4092a2bb0e72d5695265f86f997004")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+750f1a4ef8ee32c636445c025d2fd498a29f5137")]
 [assembly: System.Reflection.AssemblyProductAttribute("SegmentTree")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SegmentTree")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

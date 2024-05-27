@@ -1,6 +1,6 @@
 ﻿class Program {
     static void Main(string[] args) {
-        int[] data = {43, 18, 35, 12, 57, 76, 45, 15, 76, 24};
+        int[] data = {43, 18, 35, 12, 57, 76, 45, 15, 76, 24, 18, 34};
 
         SegmentTree sumTree = new SegmentTree(data, new SumOperation());
         SegmentTree minTree = new SegmentTree(data, new MinOperation());
@@ -8,7 +8,7 @@
         SegmentTree multiplyTree = new SegmentTree(data, new MultiplyOperation());
         SegmentTree gcdTree = new SegmentTree(data, new GcdOperation());
 
-        int start = 3;
+        int start = 4;
         int end = 7;
         var segment = new Segment(start, end);
 
